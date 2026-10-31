@@ -1,0 +1,246 @@
+{
+  "rules": [
+    {
+      "id": "R01",
+      "authority": "Business Regulation",
+      "subject": "restaurant",
+      "condition": "registered",
+      "action": "permit",
+      "scope": "local"
+    },
+    {
+      "id": "R02",
+      "authority": "Municipal Regulation",
+      "subject": "restaurant",
+      "condition": "registered",
+      "action": "require_inspection",
+      "scope": "local"
+    },
+    {
+      "id": "R03",
+      "authority": "Municipal Regulation",
+      "subject": "public_event",
+      "condition": "registered",
+      "action": "permit",
+      "scope": "temporary"
+    },
+    {
+      "id": "R04",
+      "authority": "Public Safety Regulation",
+      "subject": "public_event",
+      "condition": "registered",
+      "action": "require_inspection",
+      "scope": "temporary"
+    },
+    {
+      "id": "R05",
+      "authority": "Environmental Regulation",
+      "subject": "construction",
+      "condition": "registered",
+      "action": "require_inspection",
+      "scope": "permanent"
+    },
+    {
+      "id": "R06",
+      "authority": "Municipal Regulation",
+      "subject": "small_business",
+      "condition": "registered",
+      "action": "require_registration",
+      "scope": "local"
+    },
+    {
+      "id": "R07",
+      "authority": "National Regulation",
+      "subject": "employee",
+      "condition": "registered",
+      "action": "require_registration",
+      "scope": "national"
+    },
+    {
+      "id": "R08",
+      "authority": "Business Regulation",
+      "subject": "large_business",
+      "condition": "registered",
+      "action": "require_license",
+      "scope": "national"
+    },
+    {
+      "id": "R09",
+      "authority": "Public Safety Regulation",
+      "subject": "vehicle",
+      "condition": "registered",
+      "action": "require_inspection",
+      "scope": "local"
+    },
+    {
+      "id": "R10",
+      "authority": "National Regulation",
+      "subject": "resident",
+      "condition": "registered",
+      "action": "permit",
+      "scope": "permanent"
+    },
+    {
+      "id": "R11",
+      "authority": "Environmental Regulation",
+      "subject": "construction",
+      "condition": "unregistered",
+      "action": "prohibit",
+      "scope": "permanent"
+    },
+    {
+      "id": "R12",
+      "authority": "Municipal Regulation",
+      "subject": "restaurant",
+      "condition": "licensed",
+      "action": "require_license",
+      "scope": "local"
+    },
+    {
+      "id": "R13",
+      "authority": "National Regulation",
+      "subject": "student",
+      "condition": "registered",
+      "action": "require_registration",
+      "scope": "national"
+    },
+    {
+      "id": "R14",
+      "authority": "Business Regulation",
+      "subject": "restaurant",
+      "condition": "registered",
+      "action": "require_inspection",
+      "scope": "local"
+    },
+    {
+      "id": "R15",
+      "authority": "Municipal Regulation",
+      "subject": "public_event",
+      "condition": "registered",
+      "action": "require_registration",
+      "scope": "temporary"
+    },
+    {
+      "id": "R16",
+      "authority": "Business Regulation",
+      "subject": "small_business",
+      "condition": "licensed",
+      "action": "permit",
+      "scope": "local"
+    },
+    {
+      "id": "R17",
+      "authority": "Public Safety Regulation",
+      "subject": "public_event",
+      "condition": "registered",
+      "action": "prohibit",
+      "scope": "temporary"
+    },
+    {
+      "id": "R18",
+      "authority": "Municipal Regulation",
+      "subject": "public_event",
+      "condition": "registered",
+      "action": "require_registration",
+      "scope": "local"
+    },
+    {
+      "id": "R19",
+      "authority": "Environmental Regulation",
+      "subject": "construction",
+      "condition": "registered",
+      "action": "restrict",
+      "scope": "permanent"
+    },
+    {
+      "id": "R20",
+      "authority": "National Regulation",
+      "subject": "vehicle",
+      "condition": "licensed",
+      "action": "permit",
+      "scope": "national"
+    },
+    {
+      "id": "R21",
+      "authority": "Municipal Regulation",
+      "subject": "vehicle",
+      "condition": "registered",
+      "action": "prohibit",
+      "scope": "local"
+    },
+    {
+      "id": "R22",
+      "authority": "Business Regulation",
+      "subject": "restaurant",
+      "condition": "licensed",
+      "action": "permit",
+      "scope": "national"
+    },
+    {
+      "id": "R23",
+      "authority": "Public Safety Regulation",
+      "subject": "private_event",
+      "condition": "registered",
+      "action": "require_inspection",
+      "scope": "temporary"
+    },
+    {
+      "id": "R24",
+      "authority": "Environmental Regulation",
+      "subject": "resident",
+      "condition": "registered",
+      "action": "restrict",
+      "scope": "permanent"
+    }
+  ],
+  "coverage_cases": [
+    {
+      "subject": "restaurant",
+      "condition": "registered"
+    },
+    {
+      "subject": "restaurant",
+      "condition": "unregistered"
+    },
+    {
+      "subject": "small_business",
+      "condition": "registered"
+    },
+    {
+      "subject": "small_business",
+      "condition": "unregistered"
+    },
+    {
+      "subject": "public_event",
+      "condition": "registered"
+    },
+    {
+      "subject": "public_event",
+      "condition": "unregistered"
+    },
+    {
+      "subject": "vehicle",
+      "condition": "registered"
+    },
+    {
+      "subject": "construction",
+      "condition": "registered"
+    },
+    {
+      "subject": "construction",
+      "condition": "unregistered"
+    },
+    {
+      "subject": "resident",
+      "condition": "unregistered"
+    },
+    {
+      "subject": "student",
+      "condition": "registered"
+    },
+    {
+      "subject": "private_event",
+      "condition": "registered"
+    }
+  ]
+}
